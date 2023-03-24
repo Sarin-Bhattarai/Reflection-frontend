@@ -1,0 +1,73 @@
+.about {
+  min-height: 90vh;
+}
+
+.mtop {
+  margin-top: 50px;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  color: #38d16a;
+  margin: 20px 0;
+}
+
+.heading h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.about p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.about .left {
+  padding-right: 30px;
+}
+
+.about .img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.about img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 100%;
+  object-fit: contain;
+  transform: scale(1.1);
+}
+
+.about-second {
+  min-height: 100vh;
+}
+
+.about-second .about-image {
+  position: relative;
+  width: 100%;
+}
+
+.about-second .about-image .cat-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 85%;
+  height: 60vh;
+  margin-left: 25px;
+  object-fit: contain;
+  transform: scale(1.1);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}

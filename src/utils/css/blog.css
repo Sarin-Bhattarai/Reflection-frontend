@@ -1,0 +1,27 @@
+.blog {
+  min-height: 90vh;
+}
+
+.blog .text {
+  margin: 0;
+  margin-top: -6px;
+}
+
+.blog span {
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+.blog h2 {
+  margin: 20px 0;
+}
+
+.blog a {
+  color: #38d16a;
+  display: block;
+  line-height: 20px;
+}
+
+.blog a .icon {
+  padding-top: 10px;
+}

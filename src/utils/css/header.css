@@ -1,0 +1,85 @@
+header {
+  padding: 20px 0px;
+}
+
+header ul {
+  display: inline-block;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+header ul li a {
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+header ul li a:hover {
+  color: #38d16a;
+  font-weight: 500;
+}
+
+.HeaderIcon {
+  margin-left: 20px;
+  transition: 0.5s;
+}
+
+.navbar-items-icon {
+  color: #000;
+  display: none;
+}
+
+header.active {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 28px 0px rgba(0 0 0 /60%);
+  width: 100%;
+  z-index: 10;
+}
+
+.logo h1 {
+  border-left: 3px solid #38d16a;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-sidebar {
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    left: 50px;
+    top: 75px;
+    transition: 0.5s;
+    width: 80%;
+    height: 52vh;
+    z-index: 5;
+  }
+
+  .nav-links-sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  header ul li {
+    margin-bottom: 30px;
+  }
+
+  .navbar-items-icon {
+    display: block;
+    position: absolute;
+    right: 30px;
+    color: #000;
+    border: 1px solid #000;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

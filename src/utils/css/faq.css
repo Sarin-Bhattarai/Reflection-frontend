@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.faq {
+  min-height: 90vh;
+  margin-top: 100px;
+}
+
+.faq-row-wrapper {
+  border-radius: 5px;
+}
+
+.row-content {
+  margin-bottom: 15px;
+}
+
+.row-title {
+  font-family: "Poppins", sans-serif;
+}
+
+.row-content-text {
+  text-align: justify;
+  opacity: 0.8;
+}

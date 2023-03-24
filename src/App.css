@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* --------------Fit to every screen--------------  */
+
+@media screen and (max-width: 768px) {
+  .left,
+  .right {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+  .home .container {
+    flex-direction: column !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .home {
+    min-height: 90vh !important;
+  }
+
+  .home .img {
+    width: 100% !important;
+    height: 100% !important;
+    position: relative !important;
+  }
+
+  .home img {
+    width: 100% !important;
+    height: 100% !important;
+    position: relative !important;
+    transform: scale(1) !important;
+  }
+
+  .grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .small-grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .about-grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .about {
+    min-height: 200vh !important;
+  }
+
+  .about .container {
+    flex-direction: column !important;
+    margin-top: -5% !important;
+  }
+
+  .about .img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .about img {
+    object-fit: cover !important;
+    width: 100% !important;
+    margin-top: 10% !important;
+  }
+
+  .wrapper .container {
+    max-width: 80%;
+  }
+
+  footer .grid1 {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  p {
+    text-align: justify !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    min-height: 220vh !important;
+  }
+
+  .about img {
+    margin-top: 15% !important;
+  }
+}
+
+@media screen and (max-width: 457px) {
+  .about {
+    min-height: 230vh !important;
+  }
+
+  .about img {
+    margin-top: 17% !important;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  .about {
+    min-height: 240vh !important;
+  }
+
+  .about img {
+    margin-top: 17% !important;
+  }
+}
+
+@media screen and (max-width: 382px) {
+  .about {
+    min-height: 250vh !important;
+  }
+
+  .about img {
+    margin-top: 17% !important;
+  }
+}
+
+@media screen and (max-width: 363px) {
+  .about {
+    min-height: 260vh !important;
+  }
+
+  .about img {
+    margin-top: 17% !important;
+  }
+}
+
+/* --------------Fit to every screen--------------  */

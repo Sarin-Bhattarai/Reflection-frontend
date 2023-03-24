@@ -1,0 +1,21 @@
+.branding {
+  background-color: #08071c;
+  color: #fff;
+  margin-top: 35px;
+  padding: 80px 0px;
+}
+
+.wrapper .container {
+  max-width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.wrapper h2 {
+  font-size: 40px;
+}
+
+.wrapper p {
+  opacity: 1;
+  margin-bottom: 30px;
+}

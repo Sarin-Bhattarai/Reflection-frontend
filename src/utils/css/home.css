@@ -1,0 +1,214 @@
+.left,
+.right {
+  width: 50%;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.topMargin {
+  margin-top: 50px;
+}
+
+.home {
+  min-height: 90vh;
+}
+
+.home-second {
+  min-height: 90vh;
+}
+
+.home .img {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+
+.home img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 90%;
+  object-fit: contain;
+  transform: scale(1.1);
+}
+
+.home-second .image {
+  position: relative;
+  width: 100%;
+}
+
+.home-second .grid {
+  grid-gap: 50px;
+}
+
+.home-second .image img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  transform: scale(1.1);
+}
+
+.home-second .box .text {
+  background-color: #fff;
+  box-shadow: 0px 5px 20px 0px rgb(0 0 0 /60%);
+  padding: 30px;
+  margin: 20px;
+  margin-top: -30px;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.home-second .box .text h2 {
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.home h1 {
+  font-size: 60px;
+}
+
+.socialIcon .i {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.socialIcon .i:hover {
+  color: #fff;
+}
+
+/* icon css */
+.facebook {
+  color: #4267b2;
+  border: 1px solid #4267b2;
+  padding: 5px 5px;
+}
+
+.facebook:hover {
+  background-color: #4267b2;
+}
+
+.instagram {
+  color: #f56040;
+  border: 1px solid #e1306c;
+  padding: 5px 5px;
+}
+
+.instagram:hover {
+  background-color: #e1306c;
+}
+
+.twitter {
+  color: #1da1f2;
+  border: 1px solid #1da1f2;
+  padding: 5px 5px;
+}
+
+.twitter:hover {
+  background-color: #1da1f2;
+}
+
+.youtube {
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  padding: 5px 5px;
+}
+
+.youtube:hover {
+  background-color: #ff0000;
+}
+
+/* icon css ends here */
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-style: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.primary-btn {
+  padding: 15px 40px;
+  background: #38d16a;
+}
+
+.primary-btn:hover {
+  background-color: #08071c;
+  box-shadow: 0px 13px 27px 0px rgba(245 78 162 /25%);
+}
+
+.home .right {
+  margin-top: 8%;
+}
+
+.home .socialIcon {
+  margin: 30px 0;
+}
+
+.home p {
+  margin-bottom: 20px;
+}
+
+p {
+  color: #6185a5;
+  line-height: 30px;
+}
+
+.home-third {
+  min-height: 90vh;
+}
+
+.home-third h4 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #fff;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  margin-top: 15px;
+}
+
+.small-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.grid-3 .box p {
+  text-align: justify;
+  color: #fff;
+}
+
+.sg-row {
+  margin-bottom: 30px;
+}
+
+.sg-row span {
+  font-size: 35px;
+}
+
+#box90 {
+  background-color: #08071c;
+  padding: 22px;
+}
