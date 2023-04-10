@@ -61,8 +61,8 @@ const Privacy = () => {
               Personal Information from children under the age of 13. If you are
               a parent or guardian and believe your child has provided us with
               Personal Information without your consent, please contact us at
-              info@homibuddypetcare.com and we will take steps to remove such
-              Personal Information from our systems.
+              inforeflectioncleaners@gmail.com and we will take steps to remove
+              such Personal Information from our systems.
             </p>
           </div>
         </div>

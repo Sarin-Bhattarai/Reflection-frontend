@@ -13,12 +13,13 @@ const Terms = () => {
           <div className="left-privacy">
             <h2>1. Introduction</h2>
             <p>
-              Welcome to <span>Wagging Tails</span>
+              Welcome to <span>Reflection Cleaners</span>
             </p>
             <p>
               These Terms of Service (“Terms”, “Terms of Service”) govern your
-              use of our website located at Wagging tails.com (together or
-              individually “Service”) operated by <span>Wagging tails</span>.
+              use of our website located at ReflectionCleaners.vercel.app
+              (together or individually “Service”) operated by{" "}
+              <span>Reflection Cleaners</span>.
             </p>
             <p>
               Our Privacy Policy also governs your use of our Service and
@@ -37,14 +38,14 @@ const Terms = () => {
               marketing or promotional materials and other information we may
               send. However, you may opt out of receiving any, or all, of these
               communications from us by following the unsubscribe link or by
-              emailing at wagging@gmail.com.
+              emailing at inforeflectioncleaners@gmail.com.
             </p>
           </div>
 
           <div className="left-privacy">
             <h2>3. Purchases</h2>
             <p>
-              <span>Purchases or Shop</span>
+              <span>Purchases or Shop [excluded for now]</span>
             </p>
             <p>
               If you wish to purchase any product or service made available
@@ -82,13 +83,14 @@ const Terms = () => {
               owner, or authorized on behalf of one, and you believe that the
               copyrighted work has been copied in a way that constitutes
               copyright infringement, please submit your claim via email to
-              wagging@gmail.com, with the subject line: “Copyright Infringement”
-              and <br /> include in your claim a detailed description of the
-              alleged Infringement as detailed below, under “DMCA Notice and
-              Procedure for Copyright Infringement Claims” You may be held
-              accountable for damages (including costs and attorneys’ fees) for
-              misrepresentation or bad-faith claims on the infringement of any
-              Content found on and/or through Service on your copyright.
+              inforeflectioncleaners@gmail.com, with the subject line:
+              “Copyright Infringement” and <br /> include in your claim a
+              detailed description of the alleged Infringement as detailed
+              below, under “DMCA Notice and Procedure for Copyright Infringement
+              Claims” You may be held accountable for damages (including costs
+              and attorneys’ fees) for misrepresentation or bad-faith claims on
+              the infringement of any Content found on and/or through Service on
+              your copyright.
             </p>
           </div>
         </div>

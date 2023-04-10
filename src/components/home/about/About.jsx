@@ -1,7 +1,7 @@
 import React from "react";
 import Faq from "react-faq-component";
-import aboutPic from "../../../utils/assets/aboutpic.jpg";
-import aboutPic2 from "../../../utils/assets/cat-care.png";
+import aboutPic from "../../../utils/assets/who.jpg";
+import aboutPic2 from "../../../utils/assets/ser-1.png";
 import "../../../utils/css/about.css";
 import { Link } from "react-router-dom";
 
@@ -109,7 +109,7 @@ const About = () => {
                   alt="about-pic-second"
                 />
               </div>
-              <h2>Pet Daycare</h2>
+              <h2>Laundary and Dry Cleaning</h2>
               <p style={{ textAlign: "justify", marginBottom: "15px" }}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Laudantium ipsam fugit facilis excepturi debitis nostrum aut

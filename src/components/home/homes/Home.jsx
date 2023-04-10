@@ -59,12 +59,11 @@ const Home = () => {
                 <img src={food1} alt="shop-pic" />
               </div>
               <div className="text">
-                <p>Price: $10</p>
                 <p>Lorem ipsum dolor sit amet smet.</p>
-                <h2>Pedigree</h2>
+                <h2>Trained Professionals</h2>
                 <button className="primary-btn ">
-                  <Link style={{ color: "#fff" }} to="/shop">
-                    Shop now
+                  <Link style={{ color: "#fff" }} to="/services">
+                    See more
                   </Link>
                 </button>
               </div>
@@ -75,12 +74,11 @@ const Home = () => {
                 <img src={food2} alt="shop-pic" />
               </div>
               <div className="text">
-                <p>Price: $12</p>
                 <p>Lorem ipsum dolor sit amet smet.</p>
-                <h2>Mockup</h2>
+                <h2>Necessary Equipments</h2>
                 <button className="primary-btn ">
-                  <Link style={{ color: "#fff" }} to="/shop">
-                    Shop now
+                  <Link style={{ color: "#fff" }} to="/services">
+                    See more
                   </Link>
                 </button>
               </div>
@@ -91,12 +89,11 @@ const Home = () => {
                 <img src={food3} alt="shop-pic" />
               </div>
               <div className="text">
-                <p>Price: $15</p>
                 <p>Lorem ipsum dolor sit amet smet.</p>
-                <h2>Smartbones</h2>
+                <h2>Cleaning Style</h2>
                 <button className="primary-btn ">
-                  <Link style={{ color: "#fff" }} to="/shop">
-                    Shop now
+                  <Link style={{ color: "#fff" }} to="/services">
+                    See more
                   </Link>
                 </button>
               </div>
@@ -115,9 +112,9 @@ const Home = () => {
             <div className="box" id="box90">
               <h4>
                 Join thousands of Happy
-                <br /> Dog owners who have
-                <br /> Successfully completed
-                <br /> Our courses.
+                <br /> Customers who have
+                <br /> Successfully contracted
+                <br /> With our company.
               </h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
@@ -133,8 +130,8 @@ const Home = () => {
             <div className="box">
               <div className="small-grid">
                 <div className="sg-row">
-                  <span>8.827</span>
-                  <h3>Happy Dog Owners</h3>
+                  <span>8,827</span>
+                  <h3>Happy Customers</h3>
                   <p style={{ color: "black" }}>
                     Sample text. Click to select the textbox. Click again or
                     double click to start editing the text.
@@ -151,8 +148,8 @@ const Home = () => {
               </div>
               <div className="small-grid">
                 <div className="sg-row">
-                  <span>219.844</span>
-                  <h3>Training Videos</h3>
+                  <span>105</span>
+                  <h3>Trained Professionals</h3>
                   <p style={{ color: "black" }}>
                     Sample text. Click to select the textbox. Click again or
                     double click to start editing the text.

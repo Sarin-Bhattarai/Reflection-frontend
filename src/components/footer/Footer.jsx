@@ -1,6 +1,6 @@
 import React from "react";
 import "../../utils/css/footer.css";
-import logo from "../../utils/assets/logo3.png";
+import logo from "../../utils/assets/ref.png";
 import {
   FaFacebookF,
   FaInstagram,
@@ -40,11 +40,7 @@ const Footer = () => {
                   About
                 </Link>
               </li>
-              <li>
-                <Link className="footer-link" to="/shop">
-                  Shop
-                </Link>
-              </li>
+
               <li>
                 <Link className="footer-link" to="/contact">
                   Contact
@@ -83,15 +79,15 @@ const Footer = () => {
             </p>
             <div className="icon">
               <FaMapMarkerAlt className="ia" />
-              <label>Location: 12 Bagale Tol, Kathmandu, Nepal</label>
+              <label>Location: 189 Hobson street, Central Auckland</label>
             </div>
             <div className="icon">
               <FaPhoneAlt className="ia" />
-              <label>Phone: +977 9800000000</label>
+              <label>Phone: +64 220904799</label>
             </div>
             <div className="icon">
               <FaEnvelope className="ia" />
-              <label>Email: homi@gmail.com</label>
+              <label>inforeflectioncleaners@gmail.com</label>
             </div>
           </div>
         </div>

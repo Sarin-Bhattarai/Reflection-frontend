@@ -1,46 +1,46 @@
-import dogcare from "../../../utils/assets/dogCare.png";
-import dogextras from "../../../utils/assets/dogExtras.png";
-import dogtraining from "../../../utils/assets/dogTraining.png";
-import dogboarding from "../../../utils/assets/dogBoarding.png";
-import dogbreeding from "../../../utils/assets/dogBreeding.png";
-import dogsitting from "../../../utils/assets/dogSitting.png";
+import Work from "../../../utils/assets/work.png";
+import Spring from "../../../utils/assets/spring.png";
+import Materials from "../../../utils/assets/materials.png";
+import Men from "../../../utils/assets/men.png";
+import Service1 from "../../../utils/assets/dry.png";
+import Commercial from "../../../utils/assets/commercial.png";
 
 const ServicesData = [
   {
     id: 1,
-    title: "Dog Daycare",
+    title: "Cleaning Style",
     desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
-    cover: dogcare,
+    cover: Work,
   },
   {
     id: 2,
-    title: "Dog Boarding",
+    title: "Trained Professionals",
     desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
-    cover: dogboarding,
+    cover: Men,
   },
   {
     id: 3,
-    title: "Dog Training",
+    title: "Necessary Equipments",
     desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
-    cover: dogtraining,
+    cover: Materials,
   },
   {
     id: 4,
-    title: "Dog Breeding",
+    title: "Laundary / Dry Cleaning",
     desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
-    cover: dogbreeding,
+    cover: Service1,
   },
   {
     id: 5,
-    title: "Dog Sitting ",
+    title: "Commercial Cleaning ",
     desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
-    cover: dogsitting,
+    cover: Commercial,
   },
   {
     id: 6,
-    title: "Dog Extras",
+    title: "Spring / Deep Cleaning",
     desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
-    cover: dogextras,
+    cover: Spring,
   },
 ];
 
