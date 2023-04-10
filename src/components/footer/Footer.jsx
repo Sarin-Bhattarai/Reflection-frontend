@@ -66,9 +66,9 @@ const Footer = () => {
 
           <div className="box">
             <h2>Recent Posts</h2>
-            <h3>Pet Toys</h3>
+            <h3>Refresh Your Space</h3>
             <p>Lorem ipsum dolor sit amet</p>
-            <h3>Pet Food</h3>
+            <h3>House Cleaning Tip</h3>
             <p>Lorem ipsum dolor sit amet</p>
           </div>
           <div className="box">
