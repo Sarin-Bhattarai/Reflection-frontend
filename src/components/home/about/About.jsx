@@ -10,11 +10,11 @@ const About = () => {
     {
       title: "Who We Are And What We Do",
       desc1:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde possimus quaerat quam dolorum ipsa laboriosam, repudia illum amet inventore facilis, eius libero.",
+        "Reflection Cleaner is a professional cleaning company that offers reliable and high-quality cleaning services to residential and commercial clients in the local area.",
       desc2:
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "We are proud to be certified by industry-leading organizations and have received numerous awards and accolades for our exceptional service. Our team of experienced cleaners is dedicated to providing personalized and customizable cleaning solutions that meet the unique needs of our clients.",
       desc3:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Whether you need a one-time cleaning or ongoing service, we are here to help you maintain a clean and healthy environment. Contact us today to schedule a cleaning service with our professional and reliable team.",
       cover: aboutPic,
     },
   ];
@@ -23,25 +23,25 @@ const About = () => {
     rows: [
       {
         title: "24 hour Services",
-        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+        content: `Our 24-hour service ensures that we're available around the clock to help you with any cleaning emergencies. Whether it's a last-minute stain or an unexpected spill, our professional team is always ready to assist you. Contact us anytime, day or night, for fast and reliable cleaning services.`,
       },
 
       {
-        title: "Lorem Ipsum dolor sit",
-        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+        title: "Door-to-Door Service",
+        content: `Our door-to-door service makes cleaning convenient and hassle-free for you. We pick up your items from your doorstep and deliver them back to you clean and fresh. Our professional team ensures that your items are handled with care and returned to you in a timely and efficient manner.`,
       },
 
       {
-        title: "Lorem Ipsum dolor sit",
-        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+        title: "Trained Professionals",
+        content: `Our cleaning services are provided by trained professionals who are experts in their field. They are equipped with the knowledge and skills to handle all types of cleaning tasks, big or small. You can trust our team to deliver exceptional results and leave your space looking spotless and fresh`,
       },
       {
-        title: "Lorem Ipsum dolor sit",
-        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+        title: "Laundary and Dry Cleaning",
+        content: `Our laundry and dry cleaning services are designed to provide you with clean and fresh clothes, linens, and textiles. We use high-quality cleaning products and state-of-the-art equipment to ensure that your items are cleaned to perfection. Trust us to handle your laundry needs with care and attention to detail.`,
       },
       {
-        title: "Lorem Ipsum dolor sit",
-        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+        title: "Commercial Cleaning",
+        content: `Our commercial cleaning services are tailored to meet the unique needs of your business. From offices and retail spaces to medical facilities and warehouses, we provide comprehensive cleaning solutions that help maintain a clean and healthy work environment. Trust us to keep your business looking its best.`,
       },
     ],
   };
@@ -111,9 +111,9 @@ const About = () => {
               </div>
               <h2>Laundary and Dry Cleaning</h2>
               <p style={{ textAlign: "justify", marginBottom: "15px" }}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium ipsam fugit facilis excepturi debitis nostrum aut
-                eius distinctio doloribus expedita?
+                We provide laundry and dry cleaning services with a focus on
+                quality, convenience, and affordability. Satisfaction
+                guaranteed.
               </p>
               <button className="primary-btn ">
                 <Link style={{ color: "#fff" }} to="/services">
