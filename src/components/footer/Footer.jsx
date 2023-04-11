@@ -21,8 +21,8 @@ const Footer = () => {
           <div className="box">
             <img src={logo} alt="footerLogo" />
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Exercitationem ad optio qui.
+              Transforming spaces with our expert cleaning services, leaving you
+              with a spotless and fresh environment.
             </p>
             <div className="socialIcon">
               <FaFacebookF className="i" />
@@ -67,15 +67,15 @@ const Footer = () => {
           <div className="box">
             <h2>Recent Posts</h2>
             <h3>Refresh Your Space</h3>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Refresh your space and</p>
             <h3>House Cleaning Tip</h3>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Amazing tips for clea..</p>
           </div>
           <div className="box">
             <h2>Get in Touch</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-              expedita!
+              Contact us today for exceptional cleaning services and a spotless
+              space.
             </p>
             <div className="icon">
               <FaMapMarkerAlt className="ia" />

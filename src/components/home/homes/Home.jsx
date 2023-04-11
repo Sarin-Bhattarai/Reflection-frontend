@@ -32,17 +32,19 @@ const Home = () => {
               <FaTwitter className="i twitter" />
               <FaYoutube className="i youtube" />
             </div>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-              odit velit in dicta vero quae amet, odio voluptas. Odit magnam eum
-              quam? Rem adipisci mollitia aut numquam temporibus quasi vitae
-              vitae vitae vitae.
+            <p
+              style={{
+                textAlign: "justify",
+              }}
+            >
+              Welcome to our cleaning company! We are a professional cleaning
+              service dedicated to providing exceptional cleaning solutions for
+              homes and businesses. Our team of experienced cleaners is
+              committed to ensuring that your space is sparkling clean and
+              organized, leaving you with more time to focus on the things that
+              matter most to you. Trust us to take care of your cleaning needs
+              and enjoy a clean and fresh space every day!
             </p>
-            <button className="primary-btn ">
-              <Link style={{ color: "#fff" }} to="/contact">
-                Contact Us
-              </Link>
-            </button>
           </div>
         </div>
       </section>
@@ -59,7 +61,7 @@ const Home = () => {
                 <img src={food1} alt="shop-pic" />
               </div>
               <div className="text">
-                <p>Lorem ipsum dolor sit amet smet.</p>
+                <p>set of highly skilled trained prof...</p>
                 <h2>Trained Professionals</h2>
                 <button className="primary-btn ">
                   <Link style={{ color: "#fff" }} to="/services">
@@ -74,7 +76,7 @@ const Home = () => {
                 <img src={food2} alt="shop-pic" />
               </div>
               <div className="text">
-                <p>Lorem ipsum dolor sit amet smet.</p>
+                <p>We have necessary equip.....</p>
                 <h2>Necessary Equipments</h2>
                 <button className="primary-btn ">
                   <Link style={{ color: "#fff" }} to="/services">
@@ -89,7 +91,7 @@ const Home = () => {
                 <img src={food3} alt="shop-pic" />
               </div>
               <div className="text">
-                <p>Lorem ipsum dolor sit amet smet.</p>
+                <p>We have very unique style of cle...</p>
                 <h2>Cleaning Style</h2>
                 <button className="primary-btn ">
                   <Link style={{ color: "#fff" }} to="/services">
@@ -117,13 +119,13 @@ const Home = () => {
                 <br /> With our company.
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-                odit dolor nemo velit expedita totam ad officiis voluptatum
-                facilis perspiciatis, autem reprehenderit recusandae? Atque
-                voluptatum minima cumque eligendi magni sint cupiditate
-                obcaecati veniam perspiciatis voluptatibus repellat, provident
-                quaerat asperiores suscipit, vitae perferendis. Quo nam ex
-                itaque recusandae, sit sapiente provident!
+                We take pride in our company's track record of delivering
+                exceptional service and satisfaction to our customers. With
+                thousands of happy customers who have successfully contracted
+                with us, we are confident that we can meet and exceed your
+                expectations. Our commitment to excellence is reflected in every
+                aspect of our business, from our skilled and experienced team of
+                professionals to our use of high-quality products and equipment.
               </p>
             </div>
             {/* box ends */}
@@ -133,16 +135,17 @@ const Home = () => {
                   <span>8,827</span>
                   <h3>Happy Customers</h3>
                   <p style={{ color: "black" }}>
-                    Sample text. Click to select the textbox. Click again or
-                    double click to start editing the text.
+                    Satisfied clients are our top priority. Join them now and
+                    experience our exceptional cleaning services.
                   </p>
                 </div>
                 <div className="sg-row">
                   <span>$640</span>
                   <h3>Average Savings</h3>
                   <p style={{ color: "black" }}>
-                    Sample text. Click to select the textbox. Click again or
-                    double click to start editing the text.
+                    Our services provide significant cost savings on cleaning
+                    expenses, allowing you to allocate resources to other
+                    priorities.
                   </p>
                 </div>
               </div>
@@ -151,16 +154,16 @@ const Home = () => {
                   <span>105</span>
                   <h3>Trained Professionals</h3>
                   <p style={{ color: "black" }}>
-                    Sample text. Click to select the textbox. Click again or
-                    double click to start editing the text.
+                    Expert cleaners dedicated to quality service, ensuring a
+                    spotless and satisfying clean every time.
                   </p>
                 </div>
                 <div className="sg-row">
-                  <span>only 10</span>
-                  <h3>Training Time</h3>
+                  <span>Many More+</span>
+                  <h3>Services</h3>
                   <p style={{ color: "black" }}>
-                    Sample text. Click to select the textbox. Click again or
-                    double click to start editing the text.
+                    We offer reliable and top-notch cleaning services for all
+                    your residential and commercial needs.
                   </p>
                 </div>
               </div>
