@@ -6,26 +6,26 @@ const Faqs = () => {
   const data = {
     rows: [
       {
-        title: "Lorem Ipsum dolor sit",
-        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+        title: "What cleaning services do you provide?",
+        content: `We offer a wide range of cleaning services, including regular cleaning, deep cleaning, move-in/move-out cleaning, post-construction cleaning, and specialized cleaning for businesses and industries.`,
       },
 
       {
-        title: "Lorem Ipsum dolor sit",
-        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+        title: "Do you provide cleaning supplies and equipment?",
+        content: `Yes, we provide all the necessary cleaning supplies and equipment to perform the cleaning services. However, if you have any specific cleaning products that you would like us to use, please let us know.`,
       },
 
       {
-        title: "Lorem Ipsum dolor sit",
-        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+        title: "Do you have insurance coverage?",
+        content: `Yes, we are fully insured and bonded, which means that you are protected in case of any accidents or damages that may occur during the cleaning service.`,
       },
       {
-        title: "Lorem Ipsum dolor sit",
-        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+        title: "Can I customize my cleaning service?",
+        content: `Yes, we offer customizable cleaning solutions that are tailored to meet your unique needs. You can let us know what areas you would like us to focus on or any specific cleaning requests you have.`,
       },
       {
-        title: "Lorem Ipsum dolor sit",
-        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+        title: "How do you ensure the quality of your cleaning services?",
+        content: `We have a team of experienced and trained professionals who use top-of-the-line equipment and cleaning products to deliver exceptional cleaning results. We also follow strict quality control procedures to ensure that every cleaning service meets our high standards.`,
       },
     ],
   };

@@ -23,6 +23,47 @@ a {
   color: #000;
 }
 
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.contact-section {
+  margin-top: 20px;
+  padding: 22px;
+  border-radius: 10px;
+  background-color: #08071c;
+  box-shadow: 2px 7px 25px 15px rgb(0 0 0 / 5%);
+  -webkit-box-shadow: 2px 7px 25px 15px rgb(0 0 0 / 5%);
+  -moz-box-shadow: 2px 7px 25px 15px rgba(0, 0, 0, 0.05);
+}
+
+.lbl {
+  color: #fff !important;
+  font-size: 18px;
+}
+
+.inp-con {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.inp-text {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.embed {
+  border: none !important;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
 /* --------------Fit to every screen--------------  */
 
 @media screen and (max-width: 768px) {
@@ -67,6 +108,10 @@ a {
   }
 
   .about-grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .contact-grid {
     grid-template-columns: repeat(1, 1fr) !important;
   }
 
