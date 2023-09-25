@@ -79,7 +79,9 @@ const Footer = () => {
             </p>
             <div className="icon">
               <FaMapMarkerAlt className="ia" />
-              <label>Location: 189 Hobson street, Central Auckland</label>
+              <label>
+                Location: 12 Sheralee Place Bucklands Beach, Auckland
+              </label>
             </div>
             <div className="icon">
               <FaPhoneAlt className="ia" />

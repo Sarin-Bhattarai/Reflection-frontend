@@ -88,7 +88,7 @@ const Contact = () => {
                   height="600px"
                   width="110%"
                   className="embed"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.588936283577!2d174.75652487560436!3d-36.85231967223242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47eef5594c17%3A0xcff83468295a622!2s189%20Hobson%20Street%2C%20Auckland%20CBD%2C%20Auckland%201010%2C%20New%20Zealand!5e0!3m2!1sen!2snp!4v1681226098532!5m2!1sen!2snp"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.940603379447!2d174.91175007584252!3d-36.89176917222129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4b1e836d2b4f%3A0x52f1a83df549c341!2s12%20Sheralee%20Place%2C%20Bucklands%20Beach%2C%20Auckland%202014!5e0!3m2!1sen!2snz!4v1695678526066!5m2!1sen!2snz "
                 />
               </div>
             </div>
