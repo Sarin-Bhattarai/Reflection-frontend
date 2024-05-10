@@ -63,6 +63,11 @@ footer .icon .ia {
   height: 20px;
 }
 
+.fft {
+  width: 230px;
+  height: 210px;
+}
+
 .legal {
   display: flex;
   justify-content: space-between;

@@ -132,7 +132,7 @@ const Home = () => {
             <div className="box">
               <div className="small-grid">
                 <div className="sg-row">
-                  <span>8,827</span>
+                  <span>1,000+</span>
                   <h3>Happy Customers</h3>
                   <p style={{ color: "black" }}>
                     Satisfied clients are our top priority. Join them now and
@@ -151,7 +151,7 @@ const Home = () => {
               </div>
               <div className="small-grid">
                 <div className="sg-row">
-                  <span>105</span>
+                  <span>10+</span>
                   <h3>Trained Professionals</h3>
                   <p style={{ color: "black" }}>
                     Expert cleaners dedicated to quality service, ensuring a

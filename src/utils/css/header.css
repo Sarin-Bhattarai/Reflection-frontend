@@ -41,8 +41,24 @@ header.active {
   z-index: 10;
 }
 
+.logo {
+  position: relative;
+}
+
 .logo h1 {
-  border-left: 3px solid #38d16a;
+  border-left: 3px solid #38d16a; /* Green border */
+  padding-left: 10px;
+  animation: slideInTitle 3s ease-out forwards; /* Animation for sliding effect */
+  margin-left: -100%; /* Initially position the title outside */
+}
+
+@keyframes slideInTitle {
+  from {
+    margin-left: -100%; /* Start outside the border */
+  }
+  to {
+    margin-left: 0; /* Slide in to the border */
+  }
 }
 
 @media screen and (max-width: 768px) {

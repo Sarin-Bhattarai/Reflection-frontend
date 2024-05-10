@@ -1,6 +1,6 @@
 import React from "react";
 import "../../utils/css/footer.css";
-import logo from "../../utils/assets/ref.png";
+import logo from "../../utils/assets/logo.png";
 import {
   FaFacebookF,
   FaInstagram,
@@ -19,7 +19,7 @@ const Footer = () => {
       <footer>
         <div className="container grid1">
           <div className="box">
-            <img src={logo} alt="footerLogo" />
+            <img className="fft" src={logo} alt="footerLogo" />
             <p>
               Transforming spaces with our expert cleaning services, leaving you
               with a spotless and fresh environment.

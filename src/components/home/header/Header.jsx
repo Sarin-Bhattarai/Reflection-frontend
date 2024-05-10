@@ -11,13 +11,17 @@ const Header = () => {
     header.classList.toggle("active", window.scrollY > 150);
   });
 
+  window.onload = function () {
+    document.getElementById("title").style.marginLeft = "0"; // Ensure title is visible
+  };
+
   return (
     <>
       <header className="header">
         <div className="container flex">
           <div className="logo">
             <a href="/">
-              <h1>Reflection Cleaner</h1>
+              <h1 id="title">Reflection Cleaner</h1>
             </a>
           </div>
           <div className="nav">
