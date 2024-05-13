@@ -27,10 +27,18 @@ const Home = () => {
               SINCE 2023
             </h1>
             <div className="socialIcon">
-              <FaFacebookF className="i facebook" />
-              <FaInstagram className="i instagram" />
-              <FaTwitter className="i twitter" />
-              <FaYoutube className="i youtube" />
+              <a href="https://www.facebook.com/" target="?">
+                <FaFacebookF className="i facebook" />
+              </a>
+              <a href="https://www.instagram.com/" target="?">
+                <FaInstagram className="i instagram" />
+              </a>
+              <a href="https://twitter.com/?lang=en" target="?">
+                <FaTwitter className="i twitter" />
+              </a>
+              <a href="https://www.youtube.com/" target="?">
+                <FaYoutube className="i youtube" />
+              </a>
             </div>
             <p
               style={{

@@ -11,6 +11,7 @@ import Contact from "./components/contact/Contact";
 import Privacy from "./components/privacy/Privacy";
 import Terms from "./components/terms and condition/Terms";
 import Faqs from "./components/FAQs/Faqs";
+import Teams from "./components/teams/Teams";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/about" exact component={About} />
           <Route path="/services" exact component={Services} />
           <Route path="/blog" exact component={Blog} />
+          <Route path="/teams" exact component={Teams} />
           <Route path="/faq" exact component={Faqs} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/terms" exact component={Terms} />

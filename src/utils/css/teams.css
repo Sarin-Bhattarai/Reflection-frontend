@@ -1,0 +1,33 @@
+.team {
+  min-height: 90vh;
+  margin-top: 20px;
+}
+
+.teamG {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.team-details {
+  text-align: center;
+}
+
+.team-details img {
+  width: 300px;
+  height: 320px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  border: 3px solid #12112b;
+}
+
+.team-details h1 {
+  font-size: 26px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.team-details h2 {
+  font-size: 28px;
+  color: #4bd16a;
+}

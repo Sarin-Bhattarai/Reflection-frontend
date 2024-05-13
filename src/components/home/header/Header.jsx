@@ -11,6 +11,7 @@ const Header = () => {
     header.classList.toggle("active", window.scrollY > 150);
   });
 
+  //sliding function for header title
   window.onload = function () {
     document.getElementById("title").style.marginLeft = "0"; // Ensure title is visible
   };
@@ -39,10 +40,13 @@ const Header = () => {
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to="/services">Service</Link>
+                <Link to="/services">Services</Link>
               </li>
               <li>
-                <Link to="/blog">Blog</Link>
+                <Link to="/blog">Blogs</Link>
+              </li>
+              <li>
+                <Link to="/teams">Team</Link>
               </li>
               <li>
                 <Link to="/faq">FAQs</Link>

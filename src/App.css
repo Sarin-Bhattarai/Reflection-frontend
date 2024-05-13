@@ -107,6 +107,10 @@ a {
     grid-template-columns: repeat(1, 1fr) !important;
   }
 
+  .teamG {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
   .about-grid {
     grid-template-columns: repeat(1, 1fr) !important;
   }
