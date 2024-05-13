@@ -24,7 +24,10 @@ const Blog = () => {
                     <div className="text">
                       <span>{val.date}</span>
                       <h2>{val.title}</h2>
-                      <a href="/">
+                      <a
+                        href="https://www.thespruce.com/cleaning-4127917"
+                        target="?"
+                      >
                         Read More
                         <FaAngleDoubleRight className="icon" />
                       </a>
